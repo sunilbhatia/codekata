@@ -3,9 +3,9 @@
     <module name="MovieRental" />
     <shortenClasspath name="NONE" />
     <useClassPathOnly />
-    <extension name="coverage">
+    <extension name="coverage" sample_coverage="false">
       <pattern>
-        <option name="PATTERN" value="*" />
+        <option name="PATTERN" value="dev.sunilb.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
