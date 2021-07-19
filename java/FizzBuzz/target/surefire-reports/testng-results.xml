@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-19T11:04:30 IST" name="Surefire suite" finished-at="2021-07-19T11:04:30 IST" duration-ms="33">
+  <suite started-at="2021-07-19T11:09:30 IST" name="Surefire suite" finished-at="2021-07-19T11:09:30 IST" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2021-07-19T11:04:30 IST" name="Surefire test" finished-at="2021-07-19T11:04:30 IST" duration-ms="33">
+    <test started-at="2021-07-19T11:09:30 IST" name="Surefire test" finished-at="2021-07-19T11:09:30 IST" duration-ms="35">
       <class name="dev.sunilb.FizzBuzzMultipleOfFiveTest">
-        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@1fa9e06c]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@b7e7703]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,23 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReturnBuzzForFive -->
-        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@1fa9e06c]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[110]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldReturnBuzzForFive -->
-        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@1fa9e06c]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@b7e7703]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,15 +39,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReturnBuzzForFive -->
+        <test-method signature="shouldReturnBuzzForFive(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfFiveTest@b7e7703]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnBuzzForFive" data-provider="multipleoffive" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnBuzzForFive -->
       </class> <!-- dev.sunilb.FizzBuzzMultipleOfFiveTest -->
       <class name="dev.sunilb.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:dev.sunilb.AppTest@d3b02ce2]" started-at="2021-07-19T11:04:30 IST" name="shouldAnswerWithTrue" finished-at="2021-07-19T11:04:30 IST" duration-ms="4" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:dev.sunilb.AppTest@3f1ec8e3]" started-at="2021-07-19T11:09:30 IST" name="shouldAnswerWithTrue" finished-at="2021-07-19T11:09:30 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- dev.sunilb.AppTest -->
       <class name="dev.sunilb.FizzBuzzMultipleOfThreeTest">
-        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@352a4738]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@78a453d9]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReturnFizzForThree -->
-        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@352a4738]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@78a453d9]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6]]>
+                <![CDATA[111]]>
               </value>
             </param>
             <param index="1">
@@ -95,11 +95,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReturnFizzForThree -->
-        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@352a4738]" started-at="2021-07-19T11:04:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:04:30 IST" duration-ms="0" status="PASS">
+        <test-method signature="shouldReturnFizzForThree(int,boolean)[pri:0, instance:dev.sunilb.FizzBuzzMultipleOfThreeTest@78a453d9]" started-at="2021-07-19T11:09:30 IST" name="shouldReturnFizzForThree" data-provider="multipleofthree" finished-at="2021-07-19T11:09:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[111]]>
+                <![CDATA[6]]>
               </value>
             </param>
             <param index="1">
