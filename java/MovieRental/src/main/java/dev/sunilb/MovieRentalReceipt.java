@@ -3,19 +3,19 @@ package dev.sunilb;
 public class MovieRentalReceipt {
 
     private int receiptId;
-    private int movieId;
+    private Movie movie;
 
+    public MovieRentalReceipt(Movie movie) {
+        this.setReceiptId(1);
+        this.movie = movie;
+    }
 
     public int getReceiptId() {
         return this.receiptId;
     }
 
     public int getMovieId() {
-        return this.movieId;
-    }
-
-    public void setMovieId(int movieId) {
-        this.movieId = movieId;
+        return this.movie.getMovieId();
     }
 
     public void setReceiptId(int receiptId) {
