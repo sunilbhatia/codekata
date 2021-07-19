@@ -1,11 +1,9 @@
 package dev.sunilb;
 
 import org.testng.annotations.*;
-
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
-public class FizzBuzzTest {
+public class FizzBuzzMultipleOfThreeTest {
 
     @Test(dataProvider = "multipleofthree")
     public void shouldReturnFizzForThree(int inputNumber, boolean expectedResults) {
