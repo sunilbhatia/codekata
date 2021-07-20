@@ -1,6 +1,10 @@
 package dev.sunilb;
 
 import org.testng.annotations.*;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import static org.testng.Assert.*;
 
 public class SringCalculatorTest {
@@ -37,8 +41,15 @@ public class SringCalculatorTest {
     }
 
     @Test (expectedExceptions = RuntimeException.class)
-    public void showThrowRuntimeExceptionForLastElementAsBlank() {
+    public void shouldThrowRuntimeExceptionForLastElementAsBlank() {
         assertEquals(StringCalculator.add("1,2,"), 3);
+    }
+
+    @Test
+    public void shouldReturnSumForCustomDelimiter() {
+        assertEquals(StringCalculator.add("//;\n1;3"), 4);
+        assertEquals(StringCalculator.add("//|\n1|2|3"), 6);
+
     }
 
 }
