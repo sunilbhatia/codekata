@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 public class StringCalculator {
 
+    public static final String NEW_LINE = "\n";
+
     public static int add(String numbers) {
         if (numbers.isEmpty())
             return 0;
@@ -15,7 +17,7 @@ public class StringCalculator {
 
             String delimiter = getDelimiter(numbers);
 
-            String processedNumbers = numbers.trim().replaceAll(delimiter, ",");
+            String processedNumbers = processInputString(numbers, delimiter);
 
             if (endsWithComma(processedNumbers)) {
                 throw new RuntimeException("Error in the input format, please review last element");
@@ -29,19 +31,31 @@ public class StringCalculator {
         }
     }
 
+    private static String processInputString(String numbers, String delimiter) {
+        String processedNumbers;
+        numbers = numbers.trim();
+
+        if (!delimiter.equals(",")) {
+            numbers = numbers.replaceAll("//" + delimiter + "\n", "");
+        }
+
+        processedNumbers = numbers.replaceAll(delimiter, ",");
+        return processedNumbers;
+    }
+
     private static String getDelimiter(String numbers) {
 
-        if(numbers.startsWith("//")) return getCustomDelimiter(numbers);
-        else return "\n";
+        if (numbers.startsWith("//")) return getCustomDelimiter(numbers);
+        else return NEW_LINE;
     }
 
     private static String getCustomDelimiter(String numbers) {
         Pattern pattern = Pattern.compile("\\/\\/.*?\\n");
         Matcher matcher = pattern.matcher(numbers);
-        if(matcher.find()) {
+        if (matcher.find()) {
             return extractDelimiterFromString(matcher.group());
         }
-        return "\n";
+        return NEW_LINE;
     }
 
     private static String extractDelimiterFromString(String delimiterPartString) {
